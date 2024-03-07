@@ -1,0 +1,10 @@
+<% if !comment.archived? && !comment.id.nil? %>
+  Comment ID: <%= comment.id %><br/>
+  <%= comment.body %><br>
+  <br>
+  By <%= comment.commenter %> on <%= comment.updated_at %>
+  <br/>
+
+  (<%= link_to "Delete Comment", [comment.article, comment], data: { turbo_method: :delete, turbo_confirm: "Are you sure?" } %>)
+  <hr/>
+<% end %>

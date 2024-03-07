@@ -1,0 +1,22 @@
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/bootsnap-1.18.3/ext/bootsnap
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+checking for fdatasync() in unistd.h... yes
+checking for whether -D_GNU_SOURCE is accepted as CPPFLAGS... yes
+checking for whether -O3 is accepted as CFLAGS... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+creating Makefile
+
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240305-38688-mjbzsa sitelibdir\=./.gem.20240305-38688-mjbzsa clean
+
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240305-38688-mjbzsa sitelibdir\=./.gem.20240305-38688-mjbzsa
+compiling bootsnap.c
+linking shared-object bootsnap/bootsnap.bundle
+
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240305-38688-mjbzsa sitelibdir\=./.gem.20240305-38688-mjbzsa install
+/usr/bin/install -c -m 0755 bootsnap.bundle ./.gem.20240305-38688-mjbzsa/bootsnap
+
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/bootsnap-1.18.3/ext/bootsnap
+make DESTDIR\= sitearchdir\=./.gem.20240305-38688-mjbzsa sitelibdir\=./.gem.20240305-38688-mjbzsa clean

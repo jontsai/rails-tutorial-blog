@@ -1,0 +1,18 @@
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/racc-1.7.3/ext/racc/cparse
+/opt/homebrew/opt/ruby/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240305-38688-x32hqj sitelibdir\=./.gem.20240305-38688-x32hqj clean
+
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240305-38688-x32hqj sitelibdir\=./.gem.20240305-38688-x32hqj
+compiling cparse.c
+linking shared-object racc/cparse.bundle
+
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240305-38688-x32hqj sitelibdir\=./.gem.20240305-38688-x32hqj install
+/usr/bin/install -c -m 0755 cparse.bundle ./.gem.20240305-38688-x32hqj/racc
+
+current directory: /Users/jontsai/code/playground/my-project/blog/.gems/gems/gems/racc-1.7.3/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20240305-38688-x32hqj sitelibdir\=./.gem.20240305-38688-x32hqj clean
